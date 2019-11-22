@@ -1,0 +1,26 @@
+Arguments: 
+  /home/q7e-mha-u1/.nvm/versions/node/v12.13.1/bin/node /home/q7e-mha-u1/.nvm/versions/node/v12.13.1/bin/yarn
+
+PATH: 
+  /home/q7e-mha-u1/.nvm/versions/node/v12.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/WindowsApps/TheDebianProject.DebianGNULinux_1.1.7.0_x64__76v4gfsz19hv4:/mnt/c/Program Files/Java/jdk-11.0.1/bin:/mnt/c/Python_3.6/Scripts:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/Users/finn.brandes/Documents/curl-7.54.1/bin/:/mnt/c/Program Files (x86)/gnupg/bin:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/WINDOWS/System32/LibreSSL/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/apache-maven-3.5.3/bin:/mnt/c/Program Files/OpenSSL:/mnt/c/Users/finn.brandes/AppData/Local/Android/Sdk/platform-tools:/mnt/c/Program Files/curl-7.59.0/src:/mnt/c/BuildTools/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/7-Zip:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/Graphivz/bin:/mnt/c/Python_3.5/Scripts/:/mnt/c/Python_3.5/:/mnt/c/Python_3.6/Scripts/:/mnt/c/Python_3.6/:/mnt/c/Users/finn.brandes/AppData/Local/Programs/Python/Launcher/:/mnt/c/Ruby24-x64/bin:/mnt/c/Users/finn.brandes/AppData/Local/Programs/Python/Python36-32/Scripts/:/mnt/c/Users/finn.brandes/AppData/Local/Programs/Python/Python36-32/:/mnt/c/Users/finn.brandes/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/finn.brandes/AppData/Local/atom/bin:/mnt/c/Users/finn.brandes/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/finn.brandes/AppData/Roaming/npm:/mnt/c/Users/finn.brandes/AppData/Local/Programs/Microsoft VS Code/bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.13.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: EIO: i/o error, open '/home/q7e-mha-u1/AAA_Zielstruktur/AAA_Workbenches/VSCodeWorkbench_Web/termynal_tty/webapp/yarn.lock'
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
