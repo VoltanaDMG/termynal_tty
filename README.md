@@ -6,3 +6,12 @@ mkdird build && cd build
 cmake ..
 make
 ```
+
+---
+
+# How to Use
+
+To start the `termynal_tty` server use the following command under Linux:
+```sh
+./build/termynal_tty -p <port> <shell>
+```
