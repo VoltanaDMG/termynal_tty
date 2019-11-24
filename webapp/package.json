@@ -1,13 +1,13 @@
 {
   "private": true,
-  "name": "ttyd",
+  "name": "terminyal_tty",
   "version": "1.0.0",
   "description": "Share your terminal over the web",
   "repository": {
-    "url": "git@github.com:tsl0922/ttyd.git",
+    "url": "git@github.com:VoltanaDMG/termynal_tty.git",
     "type": "git"
   },
-  "author": "Shuanglei Tao <tsl0922@gmail.com>",
+  "author": "Benny Nystroem <benny.nystroem@derikmediagroup.xyz>",
   "license": "MIT",
   "scripts": {
     "prestart": "gulp clean",

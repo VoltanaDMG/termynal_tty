@@ -39,6 +39,6 @@ const termOptions = {
 
 export class App extends Component {
     render() {
-        return <Xterm id="terminal-container" url={url} options={termOptions} />;
+        return <Xterm id="terminal-container" url={url} options={termOptions} />
     }
 }

@@ -8,6 +8,8 @@ import { WebLinksAddon } from 'xterm-addon-web-links';
 import { OverlayAddon } from './overlay';
 import { ZmodemAddon } from '../zmodem';
 
+import { Button } from '../button';
+
 import 'xterm/css/xterm.css';
 
 export interface TerminalExtended extends Terminal {
@@ -85,9 +87,15 @@ export class Xterm extends Component<Props> {
     }
 
     render({ id }: Props) {
+
+        this.socket = new WebSocket(this.props.url, ['tty']);
+
         return (
-            <div id={id} ref={c => (this.container = c)}>
-                <ZmodemAddon ref={c => (this.zmodemAddon = c)} sender={this.sendData} />
+            <div style={{"height": "100%"}}>
+                <div id={id} ref={c => (this.container = c)}>
+                    <ZmodemAddon ref={c => (this.zmodemAddon = c)} sender={this.sendData} />
+                </div>
+                <Button command={"ls -lisa\r"} socket={this.socket} textEncoder={this.textEncoder} />
             </div>
         );
     }
@@ -120,7 +128,6 @@ export class Xterm extends Component<Props> {
             this.terminal.dispose();
         }
 
-        this.socket = new WebSocket(this.props.url, ['tty']);
         this.terminal = new Terminal(this.props.options);
         const { socket, terminal, container, fitAddon, overlayAddon } = this;
         window.term = terminal as TerminalExtended;
